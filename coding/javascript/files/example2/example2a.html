@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<script type="text/javascript">
+
+		function ToggleDemo(){
+		
+			if (document.getElementById('demo').style.display=='none'){
+				document.getElementById('demo').style.display='block';
+			}
+			else
+			{
+				document.getElementById('demo').style.display='none';
+			}
+		
+		}
+
+	</script>
+
+</head>
+
+
+
+
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p>JavaScript can show hidden HTML elements.</p>
+
+<p id="demo" style="display:none">Hello JavaScript!</p>
+
+<button type="button" onclick="ToggleDemo()">Click Me!</button>
+
+</body>
+</html>
